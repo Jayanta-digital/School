@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhakuchi JB School - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="config.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://via.placeholder.com/50" alt="School Logo" class="logo-img">
+                <span class="school-name">Radhakuchi JB School</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                <li><a href="#staff" class="nav-link">About the Staff</a></li>
+                <li><a href="#accreditation" class="nav-link">Accreditation</a></li>
+                <li><a href="#results" class="nav-link">Results</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active-section">
+        <!-- Banner with School Logo -->
+        <div class="banner">
+            <div class="banner-content">
+                <img src="https://via.placeholder.com/150" alt="Radhakuchi JB School" class="banner-logo">
+                <h1 class="banner-title">Radhakuchi JB School</h1>
+                <p class="banner-subtitle">Nurturing Young Minds Since 1985</p>
+                <div class="banner-overlay"></div>
+            </div>
+        </div>
+
+        <!-- Image Slider -->
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <img src="https://via.placeholder.com/1200x500" alt="School Building">
+                    <div class="slide-caption">Our Beautiful Campus</div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x500" alt="Classroom">
+                    <div class="slide-caption">Modern Classrooms</div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x500" alt="Playground">
+                    <div class="slide-caption">Sports & Recreation</div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x500" alt="Library">
+                    <div class="slide-caption">Well-Stocked Library</div>
+                </div>
+                <div class="slide">
+                    <img src="https://via.placeholder.com/1200x500" alt="Students">
+                    <div class="slide-caption">Happy Students</div>
+                </div>
+            </div>
+            <button class="slider-btn prev" onclick="changeSlide(-1)">❮</button>
+            <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
+            <div class="slider-dots"></div>
+        </div>
+
+        <!-- About the School -->
+        <div class="about-school">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Our School</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Radhakuchi JB School has been a beacon of quality education in the community since 1985. We are committed to providing a nurturing environment where every child can discover their potential and develop into well-rounded individuals.</p>
+                        <p>Our institution emphasizes holistic development through a balanced curriculum that combines academic excellence with character building, sports, and cultural activities. We believe in fostering creativity, critical thinking, and a love for lifelong learning.</p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Students</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">25+</div>
+                                <div class="stat-label">Teachers</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">35+</div>
+                                <div class="stat-label">Years of Excellence</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/800x600" alt="School Front View">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Head Master's Desk -->
+        <div class="headmaster-desk">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">From the Principal's Desk</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="desk-content">
+                    <div class="desk-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Principal">
+                        <div class="desk-name">Dr. Ramesh Kumar Sharma</div>
+                        <div class="desk-position">Principal</div>
+                    </div>
+                    <div class="desk-message">
+                        <p class="desk-quote">"Education is not the filling of a pail, but the lighting of a fire."</p>
+                        <p>Dear Students, Parents, and Well-wishers,</p>
+                        <p>It gives me immense pleasure to welcome you to Radhakuchi JB School. As the Principal of this esteemed institution, I am proud to lead a team of dedicated educators who are committed to nurturing the intellectual, emotional, and social growth of every student.</p>
+                        <p>Our school stands as a testament to the power of quality education and holistic development. We believe that every child is unique and possesses unlimited potential. Our role is to provide the right environment, guidance, and opportunities for them to discover and develop their talents.</p>
+                        <p>In today's rapidly changing world, we prepare our students not just for examinations, but for life itself. We instill in them the values of integrity, compassion, and perseverance, alongside academic excellence.</p>
+                        <p>I invite you to join us in this wonderful journey of learning and growth.</p>
+                        <p class="desk-signature">Warm regards,<br>Dr. Ramesh Kumar Sharma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Image Gallery</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="gallery-slider">
+                    <div class="gallery-track" id="imageGallery">
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Annual Function">
+                            <div class="gallery-caption">Annual Function 2024</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Sports Day">
+                            <div class="gallery-caption">Sports Day</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Science Exhibition">
+                            <div class="gallery-caption">Science Exhibition</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Cultural Program">
+                            <div class="gallery-caption">Cultural Program</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Field Trip">
+                            <div class="gallery-caption">Educational Trip</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Prize Distribution">
+                            <div class="gallery-caption">Prize Distribution</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievement Gallery -->
+        <div class="achievement-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="achievement-slider">
+                    <div class="achievement-track" id="achievementGallery">
+                        <div class="achievement-item">
+                            <img src="https://via.placeholder.com/600x400" alt="State Level Winner">
+                            <div class="achievement-caption">State Level Science Fair - 1st Prize</div>
+                        </div>
+                        <div class="achievement-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Sports Trophy">
+                            <div class="achievement-caption">District Sports Championship</div>
+                        </div>
+                        <div class="achievement-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Cultural Award">
+                            <div class="achievement-caption">Best Cultural Performance</div>
+                        </div>
+                        <div class="achievement-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Academic Excellence">
+                            <div class="achievement-caption">100% Pass Rate - Class 5</div>
+                        </div>
+                        <div class="achievement-item">
+                            <img src="https://via.placeholder.com/600x400" alt="Best School Award">
+                            <div class="achievement-caption">Best School Award 2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notice Board -->
+        <div class="notice-board">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Notice Board</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="notice-container" id="noticeContainer">
+                    <div class="notice-item">
+                        <div class="notice-date">15 Feb 2026</div>
+                        <div class="notice-title">Annual Examination Schedule</div>
+                        <div class="notice-desc">Final examination schedule for academic year 2025-26</div>
+                        <a href="#" class="notice-link" target="_blank">
+                            <i class="fas fa-file-pdf"></i> View PDF
+                        </a>
+                    </div>
+                    <div class="notice-item">
+                        <div class="notice-date">10 Feb 2026</div>
+                        <div class="notice-title">Parent-Teacher Meeting</div>
+                        <div class="notice-desc">Mandatory PTM for all classes on 20th February</div>
+                        <a href="#" class="notice-link" target="_blank">
+                            <i class="fas fa-file-pdf"></i> View PDF
+                        </a>
+                    </div>
+                    <div class="notice-item">
+                        <div class="notice-date">05 Feb 2026</div>
+                        <div class="notice-title">Sports Day Announcement</div>
+                        <div class="notice-desc">Annual Sports Day to be held on 1st March 2026</div>
+                        <a href="#" class="notice-link" target="_blank">
+                            <i class="fas fa-file-pdf"></i> View PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Important Links -->
+        <div class="important-links">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Important Links</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="links-grid">
+                    <a href="https://assam.gov.in/" target="_blank" class="link-card">
+                        <img src="https://via.placeholder.com/100" alt="Assam Government">
+                        <span>Assam Government</span>
+                    </a>
+                    <a href="https://www.education.assam.gov.in/" target="_blank" class="link-card">
+                        <img src="https://via.placeholder.com/100" alt="Education Department">
+                        <span>Education Department</span>
+                    </a>
+                    <a href="https://seba.assam.gov.in/" target="_blank" class="link-card">
+                        <img src="https://via.placeholder.com/100" alt="SEBA">
+                        <span>SEBA</span>
+                    </a>
+                    <a href="https://diksha.gov.in/" target="_blank" class="link-card">
+                        <img src="https://via.placeholder.com/100" alt="DIKSHA">
+                        <span>DIKSHA Portal</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Map Location -->
+        <div class="map-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Location</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.123456789!2d92.5!3d26.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDMwJzAwLjAiTiA5MsKwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>Radhakuchi JB School<br>Radhakuchi, Tezpur<br>Assam - 784501</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210<br>+91 98765 43211</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6a03040c052a180b0e020b011f0902030008190902050506440f0e1f440304">[email&#160;protected]</a><br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="710103181f121801101d3103101519101a041219181b130212191e1e1d5f1415045f181f">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Website</h3>
+                            <p>www.radhakuchijbschool.edu.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3568.123456789!2d92.5!3d26.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDMwJzAwLjAiTiA5MsKwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <div class="about-school-contact">
+                <h3>About Radhakuchi JB School</h3>
+                <p>Radhakuchi JB School is a premier educational institution dedicated to providing quality education to students from Class 1 to Class 5. Established in 1985, we have been serving the community with excellence in education, character development, and holistic growth. Our experienced faculty, modern infrastructure, and student-centric approach make us one of the most trusted schools in the region.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Staff Section -->
+    <section id="staff" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Dedicated Staff</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mrs. Anita Devi</h3>
+                        <p class="staff-position">Senior Teacher</p>
+                        <div class="staff-details">
+                                                        <p><strong>Date of Birth:</strong> 15th March 1978</p>
+                            <p><strong>Subject:</strong> Mathematics & Science</p>
+                            <p><strong>Experience:</strong> 22 Years</p>
+                            <p><strong>Classroom:</strong> Class 5A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mr. Bikash Sharma</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 22nd July 1985</p>
+                            <p><strong>Subject:</strong> English & Social Science</p>
+                            <p><strong>Experience:</strong> 15 Years</p>
+                            <p><strong>Classroom:</strong> Class 4A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mrs. Chandana Gogoi</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 10th January 1982</p>
+                            <p><strong>Subject:</strong> Assamese & Environmental Studies</p>
+                            <p><strong>Experience:</strong> 18 Years</p>
+                            <p><strong>Classroom:</strong> Class 3A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mr. Dinesh Kumar</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 5th September 1988</p>
+                            <p><strong>Subject:</strong> Mathematics</p>
+                            <p><strong>Experience:</strong> 12 Years</p>
+                            <p><strong>Classroom:</strong> Class 5B</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mrs. Eesha Barman</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 18th November 1990</p>
+                            <p><strong>Subject:</strong> English & Art</p>
+                            <p><strong>Experience:</strong> 10 Years</p>
+                            <p><strong>Classroom:</strong> Class 2A</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mr. Firoz Ahmed</h3>
+                        <p class="staff-position">Physical Education Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 25th April 1986</p>
+                            <p><strong>Subject:</strong> Physical Education</p>
+                            <p><strong>Experience:</strong> 14 Years</p>
+                            <p><strong>Classroom:</strong> All Classes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mrs. Gitanjali Das</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 30th June 1992</p>
+                            <p><strong>Subject:</strong> Science & Computer</p>
+                            <p><strong>Experience:</strong> 8 Years</p>
+                            <p><strong>Classroom:</strong> Class 4B</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="https://via.placeholder.com/400x500" alt="Teacher">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Mr. Himanshu Kalita</h3>
+                        <p class="staff-position">Assistant Teacher</p>
+                        <div class="staff-details">
+                            <p><strong>Date of Birth:</strong> 12th December 1989</p>
+                            <p><strong>Subject:</strong> Hindi & Music</p>
+                            <p><strong>Experience:</strong> 11 Years</p>
+                            <p><strong>Classroom:</strong> Class 1A</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accreditation Section -->
+    <section id="accreditation" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Accreditation & Achievements</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="accreditation-content">
+                <div class="accreditation-text">
+                    <h3>Our Accreditations</h3>
+                    <div class="accreditation-item">
+                        <h4><i class="fas fa-certificate"></i> SEBA Recognition</h4>
+                        <p>Radhakuchi JB School is officially recognized by the Secondary Education Board of Assam (SEBA) and follows the state curriculum guidelines for primary education.</p>
+                    </div>
+                    <div class="accreditation-item">
+                        <h4><i class="fas fa-award"></i> State Education Department Approval</h4>
+                        <p>Our institution holds official approval from the Assam State Education Department, ensuring compliance with all educational standards and regulations.</p>
+                    </div>
+                    <div class="accreditation-item">
+                        <h4><i class="fas fa-trophy"></i> Quality Education Recognition</h4>
+                        <p>Awarded the "Excellence in Primary Education" certificate by the District Education Officer in 2023 for maintaining high academic standards.</p>
+                    </div>
+                </div>
+
+                <div class="achievements-text">
+                    <h3>Notable Achievements</h3>
+                    <ul class="achievement-list">
+                        <li><i class="fas fa-star"></i> <strong>100% Pass Rate:</strong> Achieved 100% pass percentage in Class 5 board examinations for three consecutive years (2022-2024)</li>
+                        <li><i class="fas fa-star"></i> <strong>State Level Recognition:</strong> Winner of State Level Science Exhibition 2023</li>
+                        <li><i class="fas fa-star"></i> <strong>Sports Excellence:</strong> District Champions in Inter-School Sports Meet 2024</li>
+                        <li><i class="fas fa-star"></i> <strong>Cultural Awards:</strong> First Prize in State Level Cultural Competition 2023</li>
+                        <li><i class="fas fa-star"></i> <strong>Best School Award:</strong> Awarded "Best Primary School" in Sonitpur District 2023</li>
+                        <li><i class="fas fa-star"></i> <strong>Environmental Initiative:</strong> Recognized for "Green School Initiative" by Assam Pollution Control Board</li>
+                        <li><i class="fas fa-star"></i> <strong>Digital Learning:</strong> Successfully implemented digital classroom project with support from State Government</li>
+                        <li><i class="fas fa-star"></i> <strong>Community Service:</strong> Received appreciation for outstanding community service and social awareness programs</li>
+                    </ul>
+                </div>
+
+                <div class="certificates-section">
+                    <h3>Certificates & Documents</h3>
+                    <div class="certificates-grid">
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>SEBA Recognition Certificate</span>
+                        </a>
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>State Approval Document</span>
+                        </a>
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Best School Award 2023</span>
+                        </a>
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Excellence in Education</span>
+                        </a>
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Sports Championship</span>
+                        </a>
+                        <a href="#" target="_blank" class="certificate-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Green School Certificate</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Examination Results</h2>
+                <div class="title-underline"></div>
+            </div>
+            <p class="results-intro">View our students' examination results year-wise for all classes</p>
+            
+            <div class="results-container">
+                <div class="results-class">
+                    <h3><i class="fas fa-graduation-cap"></i> Class 1 Results</h3>
+                    <div class="results-grid">
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2023-24</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2022-23</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2021-22</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="results-class">
+                    <h3><i class="fas fa-graduation-cap"></i> Class 2 Results</h3>
+                    <div class="results-grid">
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2023-24</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2022-23</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2021-22</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="results-class">
+                    <h3><i class="fas fa-graduation-cap"></i> Class 3 Results</h3>
+                    <div class="results-grid">
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2023-24</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2022-23</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2021-22</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="results-class">
+                    <h3><i class="fas fa-graduation-cap"></i> Class 4 Results</h3>
+                    <div class="results-grid">
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2023-24</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2022-23</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2021-22</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="results-class">
+                    <h3><i class="fas fa-graduation-cap"></i> Class 5 Results</h3>
+                    <div class="results-grid">
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2023-24</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2022-23</span>
+                        </a>
+                        <a href="#" target="_blank" class="result-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Academic Year 2021-22</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Radhakuchi JB School</h3>
+                    <p>Nurturing Young Minds Since 1985</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#staff">About the Staff</a></li>
+                        <li><a href="#accreditation">Accreditation</a></li>
+                        <li><a href="#results">Results</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="244d4a424b645645404c454f51474c4d4e4657474c4b4"
