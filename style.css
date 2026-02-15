@@ -136,6 +136,7 @@ html {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+    z-index: 1001;
 }
 
 .hamburger span {
@@ -144,6 +145,18 @@ html {
     background: var(--white);
     border-radius: 3px;
     transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
 }
 
 /* Section Styles */
@@ -1094,6 +1107,9 @@ html {
         padding: 2rem;
         transition: left 0.3s ease;
         gap: 0;
+        box-shadow: var(--shadow-lg);
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
     }
     
     .nav-menu.active {
@@ -1104,6 +1120,11 @@ html {
         width: 100%;
         padding: 1rem;
         border-bottom: 1px solid rgba(255,255,255,0.1);
+        text-align: center;
+    }
+    
+    .nav-link:last-child {
+        border-bottom: none;
     }
     
     .banner-title {
@@ -1131,6 +1152,10 @@ html {
     .gallery-item,
     .achievement-item {
         min-width: 280px;
+    }
+    
+    .desk-image {
+        position: static;
     }
 }
 

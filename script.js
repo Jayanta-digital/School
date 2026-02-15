@@ -1,3 +1,6 @@
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    
 // Navigation functionality
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
@@ -5,9 +8,12 @@ const navLinks = document.querySelectorAll('.nav-link');
 const navbar = document.getElementById('navbar');
 
 // Toggle mobile menu
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-});
+if (hamburger) {
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
+    });
+}
 
 // Navigation between sections
 navLinks.forEach(link => {
@@ -349,5 +355,7 @@ window.addEventListener('resize', () => {
         console.log('Desktop view');
     }
 });
+
+}); // End of DOMContentLoaded
 
 console.log('Radhakuchi JB School website loaded successfully!');
